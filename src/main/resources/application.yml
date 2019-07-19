@@ -1,9 +1,21 @@
 server:
-  port: 8000
+  port: 8000  
   
 info:
    build:
       artifact: "com.rab3"
       name: "springboodemo"
       description: "first spring boot"
-      version: "1.3.4"
+      version: "1.3.4" 
+           
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hotel_everest_db
+    username: root
+    password: root     
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect
