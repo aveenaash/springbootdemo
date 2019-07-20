@@ -37,7 +37,7 @@ public class RoomEntity {
 	private Double basePrice;
 	
 	
-	public enum Type {
+	public  enum Type {
 		SINGLE,DOUBLE
 	}
 
